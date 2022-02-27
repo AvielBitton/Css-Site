@@ -1,0 +1,187 @@
+:root {
+  --main-bg-color: #c1f4c5;
+  --second-bg-color: white;
+  --main-tx-color: #65c18c;
+  --second-tx-color: black;
+}
+
+/* CSS Elements */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  z-index: 2;
+}
+
+h2,
+h3,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-tx-color);
+}
+
+hr {
+  display: inline-block;
+  border: none;
+  border-top: 10px dotted #65c18b5d;
+  width: 50px;
+  margin: 10px;
+}
+/* CSS classes */
+
+/*------ Global-CSS ------*/
+.main-color-tx,
+.main-color {
+  color: var(--main-tx-color);
+}
+.main-color-bg,
+.main-color {
+  background-color: var(--main-bg-color);
+}
+.second-color-tx,
+.second-color {
+  color: var(--second-tx-color);
+}
+.second-color-bg,
+.second-color {
+  background-color: var(--second-bg-color);
+}
+.third-tx {
+  color: var(--second-bg-color);
+}
+
+/* The web page is divided into containers,
+Each container is a section on the page, it can be seen visually by the color changes and it is very intuitive.
+The order of the classes is arranged according to the containers.
+Also, the order's classes are depended on appearance on the page.
+*/
+
+/*------ top-container ------*/
+.top-container {
+  position: relative;
+  padding-top: 50px;
+  border-bottom: 2px solid #3a644c;
+}
+.pro {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.programmer {
+  position: relative;
+  font-size: 1.2rem;
+  margin: 0;
+  z-index: 1;
+}
+.cloud-top {
+  position: absolute;
+  right: 250px;
+  top: 30px;
+}
+.cloud-sun {
+  position: absolute;
+  left: 250px;
+  bottom: 450px;
+}
+.cloud-middle-down {
+  position: absolute;
+  right: 300px;
+  bottom: 200px;
+}
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 40px;
+}
+.top-full-name {
+  position: relative;
+  font-size: 5.625rem;
+  margin: 0;
+  text-shadow: 1px 1px 1px black;
+  z-index: 1;
+}
+.earth-img {
+  height: 400px;
+}
+
+/*------ middle-containe ------*/
+.skills {
+  padding: 20px;
+}
+.middle-container {
+  position: relative;
+  padding-top: 100px;
+  border-bottom: 2px solid #3a644c;
+}
+.profile {
+  margin: auto;
+  margin-bottom: 100px;
+  width: 50%;
+}
+.profile-pic {
+  height: 200px;
+}
+.icon {
+  height: 140px;
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  z-index: -1;
+}
+.icon-right {
+  float: right;
+}
+.skill-row {
+  margin: 50px auto;
+  padding: 5px 15px;
+  width: 55%;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  line-height: 1.5;
+}
+.skill-row:hover {
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.644);
+  font-weight: bold;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 20px;
+  color: white;
+  background-color: var(--main-tx-color);
+  border-radius: 12px;
+  border: 1px solid var(--main-tx-color);
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--main-tx-color);
+}
+/*------ bottom-container ------*/
+
+.bottom-container {
+  padding: 20px;
+}
+
+.footer-link {
+  margin: 0;
+  padding: 10px;
+  font-weight: b;
+}
+
+.signature {
+  margin: 0;
+}
